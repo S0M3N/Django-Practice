@@ -7,6 +7,9 @@ def index(request):
     <h1 style='color: green'>Hello World!</h1>
     <p>lorem ipsum</p>
     <hr/>
-    
+
     """
     return HttpResponse(s)
+
+def test(request):
+    return HttpResponse("test url")
